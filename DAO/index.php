@@ -20,10 +20,15 @@ require_once("config.php");
 //$usuario->login("joao", "qwerty");
 //echo $usuario;
 
-$aluno = new Usuario("aluno", "@lun0");
+//Criando um novo usuário
+//$aluno = new Usuario("aluno", "@lun0");
+//$aluno->insert();
+//echo $aluno;
 
-$aluno->insert();
-
-echo $aluno;
+//Update no usuário já existente
+$usuario = new Usuario();
+$usuario->loadByID(6);
+$usuario->update("Carlos", "12345teste");
+echo $usuario;
 
 ?>
