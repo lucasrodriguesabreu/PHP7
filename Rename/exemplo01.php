@@ -18,7 +18,10 @@ if(!file_exists($dir1 . DIRECTORY_SEPARATOR . $filename)){
 
 }
 
-rename();
+rename(
+    $dir1 . DIRECTORY_SEPARATOR . $filename, //Origem
+    $dir2 . DIRECTORY_SEPARATOR . $filename //Destino
+);
 
-//PAREI COM 5:15
+echo "Arquivo movido com sucesso!";
 ?>
