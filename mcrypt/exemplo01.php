@@ -28,5 +28,3 @@ $string = mcrypt_decrypt(
 var_dump($string);
 
 ?>
-
-/6:54
