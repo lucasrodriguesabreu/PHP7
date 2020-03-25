@@ -19,5 +19,4 @@ if(isset($_POST['busca'])){
 	echo htmlentities($_POST['busca']);
 }
 
-
 ?>
