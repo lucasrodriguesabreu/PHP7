@@ -18,6 +18,14 @@ $final = base64_encode($mcrypt);
 
 var_dump($final);
 
+echo("</br>");
+echo("</br>");
+
+echo "DECRIPTANDO";
+
+echo("</br>");
+echo("</br>");
+
 $string = mcrypt_decrypt(
 	MCRYPT_RIJNDAEL_128,
 	SECRET,
